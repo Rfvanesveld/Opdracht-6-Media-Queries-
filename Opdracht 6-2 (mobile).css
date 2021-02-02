@@ -1,0 +1,88 @@
+body {
+    background-color: firebrick; 
+    font-family: cursive;
+    background-image: url(Gif-2.gif), 
+    url(Gif-1.gif);} 
+
+header {
+    border: dotted black 2px; 
+    background-color: whitesmoke;
+    width: fit-content;
+    margin: auto  ;}
+
+h1 {
+    text-align: center;
+    border: solid red;}
+
+h2 {
+    border-radius: 5px;
+    border: solid blue;
+    margin: auto;
+    padding:6px;
+    font-family: cursive 6px;
+    background-color: cornflowerblue;}
+
+li    {
+    display: inline;
+    padding: 10px;}
+
+.vrouw {
+    font-size: 20px;    
+    background-color: whitesmoke;
+    border: 1px dotted #253c93;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 400px;}
+
+.vrouw :hover {
+    color:  red}
+
+.top3 {
+    border: solid cornflowerblue;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;}  
+
+ul {
+    border: black solid 2px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #f1f1f1;}
+
+li a {
+    display:block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: black dotted 1px;}
+
+.websites {
+    background-color: whitesmoke;
+    color: white;
+    margin: auto;
+    margin-top: 10px;}
+
+li a.google {
+    background-color: grey;}
+
+li a:hover {
+    background-color: #555;
+    color: white;;}
+
+li a:hover:not(.google){
+    background-color: blue;}
+
+.vi :last-child {border-bottom: none;}
+
+footer {
+    color: whitesmoke;}
+
+@media 
+(max-width: 576px) {
+body {background-color: burlywood;}
+.websites {background-color: chartreuse;}}
